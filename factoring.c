@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 int main(void){
-    printf("This code is to find the factors of a particular POSITIVE INTEGER. The number will need to be less than or equal to 150, or else it might give you the incorrect results. You can also find if a number is prime or not, if it's factors are 1 and itself then it is a prime number, if it has more factors than it is composite.\n");
+    printf("This code is to find the factors of a particular POSITIVE INTEGER. The number will need to be less than or equal to 200, or else it might give you incorrect results. You can also find if a number is prime or not, if it's factors are 1 and itself then it is a prime number, if it has more factors than it is composite.\n");
     int number = get_int("What is your number? \n");
-     if(151<=number){
-        printf("This number is greater than 150! The following results may not be accurate! \n");
+     if(201 <=number){
+        printf("This number is greater than 200! The following results may not be accurate! \n");
     }
     if(number % 1 == 0){
         printf("1\n");
@@ -233,7 +233,82 @@ int main(void){
     if(number % 75 == 0){
         printf("75\n");
     }
-    if(number > 75)
+     if(number % 76 == 0){
+        printf("76\n");
+    }
+     if(number % 77 == 0){
+        printf("77\n");
+    }
+     if(number % 78 == 0){
+        printf("78\n");
+    }
+     if(number % 79 == 0){
+        printf("79\n");
+    }
+     if(number % 80 == 0){
+        printf("80\n");
+    }
+     if(number % 81 == 0){
+        printf("81\n");
+    }
+     if(number % 82 == 0){
+        printf("82\n");
+    }
+     if(number % 83 == 0){
+        printf("83\n");
+    }
+     if(number % 84 == 0){
+        printf("84\n");
+    }
+     if(number % 85 == 0){
+        printf("85\n");
+    }
+     if(number % 86 == 0){
+        printf("86\n");
+    }   
+     if(number % 87 == 0){
+        printf("87\n");
+    }
+     if(number % 88 == 0){
+        printf("88\n");
+    }
+     if(number % 89 == 0){
+        printf("89\n");
+    }
+     if(number % 90 == 0){
+        printf("90\n");
+    }
+     if(number % 91 == 0){
+        printf("91\n");
+    }
+     if(number % 92 == 0){
+        printf("92\n");
+    }
+     if(number % 93 == 0){
+        printf("93\n");
+    }
+     if(number % 94 == 0){
+        printf("94\n");
+    }
+     if(number % 95 == 0){
+        printf("95\n");
+    }
+     if(number % 96 == 0){
+        printf("96\n");
+    }
+     if(number % 97 == 0){
+        printf("97\n");
+    }
+     if(number % 98 == 0){
+        printf("98\n");
+    }
+     if(number % 99 == 0){
+        printf("99\n");
+    }
+     if(number % 100 == 0){
+        printf("100\n");
+    }
+    if(number > 100)
     {
         printf("%i\n",number);
     }
